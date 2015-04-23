@@ -21,6 +21,7 @@ gulp.task('protractor', ['webdriver_update'], function(cb) {
     configFile: './protractor.conf.js',
     args: process.argv.slice(3) || ''
   })).on('error', function(e) {
-    console.log(e);
+    console.error(e);
+    process.exit(1);
   }).on('end', cb);
 });
