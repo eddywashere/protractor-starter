@@ -1,0 +1,20 @@
+{
+  "name": "protractor-starter",
+  "version": "1.0.0",
+  "description": "protractor examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp protractor --suite sample"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-cli": "^0.1.5",
+    "gulp-protractor": "^1.0.0",
+    "protractor": "^2.0.0"
+  },
+  "dependencies": {
+
+  }
+}
