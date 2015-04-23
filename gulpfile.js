@@ -15,12 +15,11 @@ gulp.task('webdriver_update', webdriver_update);
 // Start the standalone selenium server
 gulp.task('webdriver_standalone', webdriver_standalone);
 
-
 // Setting up the test task
 gulp.task('protractor', ['webdriver_update'], function(cb) {
   gulp.src([]).pipe(protractor({
     configFile: './protractor.conf.js',
-    args: process.argv.slice(2,-1) || ''
+    args: process.argv.slice(3) || ''
   })).on('error', function(e) {
     console.log(e);
   }).on('end', cb);
