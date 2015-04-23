@@ -1,5 +1,7 @@
 # Protractor Starter
 
+[![Build Status](https://travis-ci.org/eddywashere/protractor-starter.svg?branch=master)](https://travis-ci.org/eddywashere/protractor-starter)
+
 This repo has boilerplate code for getting started with Protractor & Protractor w/ Gulp.
 
 ## Install Dependencies

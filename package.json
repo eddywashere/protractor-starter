@@ -4,7 +4,7 @@
   "description": "protractor examples",
   "main": "index.js",
   "scripts": {
-    "test": "gulp protractor --suite sample"
+    "test": "gulp protractor"
   },
   "author": "",
   "license": "MIT",
